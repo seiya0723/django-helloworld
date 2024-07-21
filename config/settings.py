@@ -134,3 +134,6 @@ if not DEBUG:
     ALLOWED_HOSTS = [ 'seiya0723-test-394ed4b781a2.herokuapp.com' ]
 
 
+
+
+
