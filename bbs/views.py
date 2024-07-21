@@ -8,7 +8,7 @@ class IndexView(View):
     def get(self, request, *args, **kwargs):
 
 
-        context
+        context = {}
 
         """
         topics  = Topic.objects.all()
