@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9w@vg!_m8nn%htbj8)^_kjdk2cxb$jx!!g$35)z%el&r&y1%cj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
-
+#ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 'seiya0723-test-394ed4b781a2.herokuapp.com' ]
 
 # Application definition
 
@@ -132,7 +132,6 @@ if not DEBUG:
 
     # ALLOWED_HOSTSにホスト名)を入力
     ALLOWED_HOSTS = [ 'seiya0723-test-394ed4b781a2.herokuapp.com' ]
-
 
     # 静的ファイル配信ミドルウェア、whitenoiseを使用。※ 順番不一致だと動かないため下記をそのままコピーする。
     MIDDLEWARE = [
